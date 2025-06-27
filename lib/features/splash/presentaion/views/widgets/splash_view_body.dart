@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_monkey/features/auth/presentation/views/login_view.dart';
+import 'package:meal_monkey/features/onboarding/presentation/views/onboarding_view.dart';
 
 import '../../../../../core/utils/assets.dart';
 
@@ -47,7 +48,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
 
   void navigateToNextScreen() async {
     await Future.delayed(const Duration(seconds: 2));{
-      Navigator.pushNamed(context, LoginView.routeName);
+      Navigator.pushNamed(context, OnboardingView.routeName);
     }
     // final prefs = await SharedPreferences.getInstance();
     // final isLoggedIn = prefs.getBool('isLoggedIn') ?? false;

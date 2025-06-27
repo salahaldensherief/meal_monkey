@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meal_monkey/core/utils/routes/routes.dart';
+import 'core/routes/routes.dart';
 import 'features/splash/presentaion/views/splash_view.dart';
 
 void main() {
