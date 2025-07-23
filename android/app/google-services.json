@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240068560574",
+    "project_id": "meal-monkey-b12bc",
+    "storage_bucket": "meal-monkey-b12bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240068560574:android:3e6a3e55136b30a54080ef",
+        "android_client_info": {
+          "package_name": "com.example.meal_monkey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxuNdMZ38MWpvFERs_xDT_YPFiGByzWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
