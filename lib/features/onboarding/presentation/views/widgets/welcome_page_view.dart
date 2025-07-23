@@ -23,7 +23,7 @@ class WelcomePageView extends StatelessWidget {
               clipBehavior: Clip.none,
               children: [
                 Container(
-                  child: Image.asset(width: 375.w, AssetsData.Subtraction),
+                  child: Image.asset(width: 375.w, AssetsData.subtraction),
                 ),
                 Container(
                   child: Image.asset(

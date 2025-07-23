@@ -62,13 +62,13 @@ class LoginViewBody extends StatelessWidget {
 
                 SocialLoginBotton(
                   color: AppColors.blueColor,
-                  image: AssetsData.Facebook,
+                  image: AssetsData.facebook,
                   text: 'Login with Facebook',
                   onPressed: () {},
                 ),
                 SizedBox(height: 28.h),
                 SocialLoginBotton(
-                  color: AppColors.redColor,
+                  color: AppColors.lightBlueColor,
                   image: AssetsData.google,
                   text: 'Login with google',
                   onPressed: () {

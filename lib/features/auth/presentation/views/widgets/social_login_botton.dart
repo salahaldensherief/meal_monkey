@@ -32,8 +32,8 @@ class SocialLoginBotton extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SvgPicture.asset(image, width: 7.33.w, height: 15.h),
-            SizedBox(width: 30.w),
+            SvgPicture.asset(image, width:10.w, height: 20.h),
+            SizedBox(width: 25.w),
             Text(
               text,
               style: TextStyles.medium15.copyWith(
