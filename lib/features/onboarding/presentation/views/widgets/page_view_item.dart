@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class PageviewItem extends StatelessWidget {
-  const PageviewItem({
+class PageViewItem extends StatelessWidget {
+  const PageViewItem({
     super.key,
     required this.image,
     required this.subtitle,

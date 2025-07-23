@@ -36,6 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   dots_indicator: ^4.0.1
+  flutter_screenutil: ^5.9.3
+  font_awesome_flutter: ^10.8.0
+  flutter_svg: ^2.2.0
+  country_picker: ^2.0.20
+  intl_phone_field: ^3.2.0
 
 dev_dependencies:
   flutter_test:
@@ -76,14 +81,25 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: 'Metropolis'
+    - family: Metropolis
       fonts:
         - asset: assets/fonts/Metropolis-Black.otf
-        - asset: assets/fonts/Metropolis-Regular.otf
-          weight: 500
-        - asset: assets/fonts/Metropolis-SemiBold.otf
-          weight: 600
+          weight: 900
+        - asset: assets/fonts/Metropolis-ExtraBold.otf
+          weight: 800
         - asset: assets/fonts/Metropolis-Bold.otf
           weight: 700
+        - asset: assets/fonts/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Metropolis-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Metropolis-Regular.otf
+          weight: 300
+        - asset: assets/fonts/Metropolis-BlackItalic.otf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Metropolis-ExtraBoldItalic.otf
+          weight: 800
+          style: italic
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'core/routes/routes.dart';
 import 'features/splash/presentaion/views/splash_view.dart';
 
@@ -11,16 +12,20 @@ class MealMonkey extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return ScreenUtilInit(
+      designSize: const Size(375, 812),
+      minTextAdapt: true,
+      splitScreenMode: true,
+      child: MaterialApp(
+        theme: ThemeData(
+          useMaterial3: false,
+          scaffoldBackgroundColor: Colors.white,
 
-      theme: ThemeData(
-        scaffoldBackgroundColor: Colors.white,
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        ),
+        initialRoute: SplashView.routeName,
+        onGenerateRoute: onGenerateRoute,
       ),
-     initialRoute: SplashView.routeName,
-     onGenerateRoute: onGenerateRoute,
     );
   }
 }
-
